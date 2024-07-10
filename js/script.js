@@ -1,3 +1,4 @@
+// array dei membri del team con le loro informazioni
 let staff = [
     {
         nome: 'Wayne Barnett',
@@ -31,6 +32,11 @@ let staff = [
     },
     ];
     
+    // recupero i membri del team con le relative informazioni
+    for (let key in staff) {
+        // mostro in console le informazioni di ogni membro del team
+        console.log(staff[key]);
+    }
     
 
 
