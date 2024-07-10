@@ -29,3 +29,10 @@ BONUS 2: Organizzare i singoli membri in card/schede
 
 Consigli del giorno: Ragioniamo come sempre a step. Prima la logica in italiano e poi traduciamo in codice.
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+1 - dichiaro una array
+2.1 - inserisco nell'array degli oggetti
+2.2 - assegno come valore degli oggetti le informazioni della consegna
+3 - eseguo un ciclo FOR IN per ciclare all'interno di ogni oggetto
+3.1 - mostro il valore degli oggetti nella console
+
