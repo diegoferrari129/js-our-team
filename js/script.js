@@ -36,6 +36,8 @@ let staff = [
     for (let key in staff) {
         // mostro in console le informazioni di ogni membro del team
         console.log(staff[key]);
+        // template literal per mostrare le informazioni di ogni membro del team
+        document.getElementById('display-info').innerText += `${staff[key].nome} ${staff[key].ruolo} ${staff[key].foto}`;
     }
     
 
